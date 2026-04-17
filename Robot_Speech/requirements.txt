@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────
+# Inker Robotics Chatbot — Python Dependencies
+# Install with:  pip install -r requirements.txt
+#
+# Raspberry Pi extra steps (run once before pip install):
+#   sudo apt update
+#   sudo apt install -y portaudio19-dev python3-pyaudio espeak
+# ─────────────────────────────────────────────────────────
+
+# LLM backend (local Ollama inference)
+ollama>=0.2.0
+
+# Speech recognition (mic input)
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.14
+
+# Text-to-speech (robot voice, works offline on Pi)
+pyttsx3>=2.90
+
+# Web UI (optional — only needed if running f.py or n.py)
+flask>=3.0.0
