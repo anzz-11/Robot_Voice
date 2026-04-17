@@ -1,4 +1,4 @@
-# 🤖 Inker Robotics Chatbot
+# 🤖 Robotics Voice
 
 A voice-first AI chatbot built for Raspberry Pi. It uses a **wake-word system** so the microphone stays silent until called — just like a smart speaker. Powered by a local **Ollama / LLaMA** model, so it works fully offline.
 
